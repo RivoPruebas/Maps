@@ -62,6 +62,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //Moveremos la camara a esa posicion
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(telePizza,15));
 
+
         //Elegir el tipo de mapa
         mMap.setMapStyle(MapStyleOptions.loadRawResourceStyle(this, R.raw.style_json));
         //activar brujula
